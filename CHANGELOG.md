@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [0.3.2] - 2026-06-11
+- fix gemspec missing `spec.files` so the published gem actually ships its source files (0.3.1 and earlier shipped empty)
+
+## [0.3.1] - 2024-05-04
+- ProcCpu add hostname label
+
 ## [0.3.0] - 2024-05-04
 - replace ProcStat with ProcCpu
 
